@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" immediate="true" name="tk.rajitha.osgi.book.reader" activate="activate" deactivate="deactivate">
+    <reference name="tk.rajitha.osgi.book.provider" interface="tk.rajitha.osgi.book.provider.BookProvider" cardinality="1..1" policy="dynamic" bind="setBookProvider" unbind="unsetBookProvider"/>
+    <implementation class="tk.rajitha.osgi.book.reader.internal.ReaderComponent"/>
+</scr:component>

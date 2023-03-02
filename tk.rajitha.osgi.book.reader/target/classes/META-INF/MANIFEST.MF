@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1677779064108
+Build-Jdk: 1.8.0_221
+Built-By: rajitha
+Bundle-ManifestVersion: 2
+Bundle-Name: tk.rajitha.osgi.book.reader
+Bundle-SymbolicName: tk.rajitha.osgi.book.reader
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: tk.rajitha.osgi.book.reader;version="1.0.0.SNAPSHOT"
+Import-Package: org.osgi.service.component;version="[1.2.0,2.0.0)",tk.ra
+ jitha.osgi.book.provider;version="1.0.0.SNAPSHOT",org.osgi.framework;ve
+ rsion="[1.7.0,2.0.0)"
+Service-Component: OSGI-INF/tk.rajitha.osgi.book.reader.internal.ReaderC
+ omponent.xml
+Tool: Bnd-2.1.0.20130426-122213

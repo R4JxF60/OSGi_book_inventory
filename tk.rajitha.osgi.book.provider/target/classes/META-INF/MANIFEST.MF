@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1677779063807
+Build-Jdk: 1.8.0_221
+Built-By: rajitha
+Bundle-ManifestVersion: 2
+Bundle-Name: tk.rajitha.osgi.book.provider
+Bundle-SymbolicName: tk.rajitha.osgi.book.provider
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: tk.rajitha.osgi.book.provider;uses:="tk.rajitha.osgi.boo
+ k.provider.model";version="1.0.0.SNAPSHOT",tk.rajitha.osgi.book.provide
+ r.model;version="1.0.0.SNAPSHOT"
+Import-Package: org.osgi.framework;version="[1.7.0,2.0.0)",org.osgi.serv
+ ice.component;version="[1.2.0,2.0.0)"
+Service-Component: OSGI-INF/tk.rajitha.osgi.book.provider.internal.BookP
+ roviderServiceComponent.xml
+Tool: Bnd-2.1.0.20130426-122213

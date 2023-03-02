@@ -1,0 +1,4 @@
+tk/rajitha/osgi/book/provider/BookProviderImpl.class
+tk/rajitha/osgi/book/provider/model/Book.class
+tk/rajitha/osgi/book/provider/BookProvider.class
+tk/rajitha/osgi/book/provider/internal/BookProviderServiceComponent.class
